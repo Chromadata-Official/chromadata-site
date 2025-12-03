@@ -9,20 +9,28 @@ a {
   color: #38bdf8;
 }
 .site-header {
-  padding: 15px 0;
   background: #0f172a;
+  /* strong top bar */
+  border-bottom: 1px solid #1e293b;
 }
+
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 1100px;
   margin: auto;
+  padding: 16px 20px;
 }
+
 .main-nav a {
   margin-left: 20px;
-  color: #94a3b8;
+  color: #cbd5f5;
+  font-size: 0.95rem;
+  text-decoration: none;
 }
+
+.main-nav a:hover,
 .main-nav .active {
   color: #38bdf8;
 }
@@ -72,4 +80,28 @@ a {
 .logo-image {
   height: 76px;
 }
+
+.logo-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo-link {
+  display: inline-block;
+}
+
+.logo-image {
+  height: 80px;          /* 🔥 make it dominant */
+  display: block;
+}
+
+.logo-tagline {
+  margin-top: 4px;
+  font-size: 0.78rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: #e5e7eb;
+}
+
 
