@@ -69,3 +69,7 @@ a {
 .site-footer .container {
   text-align: center;
 }
+.logo-image {
+  height: 32px;
+  display: block;
+}
